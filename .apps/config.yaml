@@ -1,4 +1,6 @@
 builds: []
 variables:
-- name: Image
-  value: builder-dev.acornsoft.io/template/template-nginx-html
+  - name: Image
+    value: builder-dev.acornsoft.io/template/template-nginx-html
+  - name: Replicas
+    value: 1    
