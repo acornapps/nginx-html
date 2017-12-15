@@ -3,12 +3,12 @@ variables:
   - name: Image
     value: builder-dev.acornsoft.io/template/template-nginx-html
   - name: Replicas
-    value: 1    
+    value: 1
   - name: RequestCpu
-    value: 0m
+    value: 100m
   - name: RequestMemory
-    value: 0Mi
+    value: 100Mi
   - name: LimitCpu
-    value: 0m
+    value: 100m
   - name: LimitMemory
-    value: 0Mi
+    value: 100Mi
