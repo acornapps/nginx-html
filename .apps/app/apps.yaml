@@ -3,7 +3,6 @@ kind: Service
 metadata:
   name: {{.AppName}}
   labels:
-    app: {{.AppName}}
     apps: {{.AppName}}  
 spec:
   type: NodePort
@@ -19,7 +18,6 @@ kind: Deployment
 metadata:
   name: {{.AppName}}
   labels:
-    app: {{.AppName}}
     apps: {{.AppName}}    
 spec:
   replicas: {{.Replicas}}
